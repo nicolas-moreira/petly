@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "petly",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

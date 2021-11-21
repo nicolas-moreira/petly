@@ -1,0 +1,7 @@
+{
+  "name": "petly",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
