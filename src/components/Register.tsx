@@ -29,7 +29,7 @@ import {
   
   
     return (
-      <IonGrid text-center>
+      <IonGrid>
         <IonRow>
           <IonCol text-center>
             <IonImg className="logo" src="/assets/logo.svg"></IonImg>
@@ -40,23 +40,27 @@ import {
             <IonItem>
               <IonLabel position="floating">Username</IonLabel>
               <IonInput type="text"></IonInput>
-            </IonItem>
+            </IonItem><br />
             <IonItem>
               <IonLabel position="floating">FirstName</IonLabel>
               <IonInput type="text"></IonInput>
-            </IonItem>
+            </IonItem><br />
             <IonItem>
               <IonLabel position="floating">LastName</IonLabel>
               <IonInput type="text"></IonInput>
-            </IonItem>
+            </IonItem><br />
+            <IonItem>
+              <IonLabel position="floating">Email</IonLabel>
+              <IonInput type="email"></IonInput>
+            </IonItem><br />
             <IonItem>
               <IonLabel position="floating">Password</IonLabel>
               <IonInput type="password"></IonInput>
-            </IonItem>
+            </IonItem><br />
             <IonItem>
               <IonLabel position="floating">Confirm Password</IonLabel>
               <IonInput type="password"></IonInput>
-            </IonItem>
+            </IonItem><br />
           </IonCol>
         </IonRow>
         <IonRow>

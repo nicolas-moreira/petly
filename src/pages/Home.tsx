@@ -28,16 +28,14 @@ const Home: React.FC = () => {
 
   return (
     <IonPage>
-      <IonContent fullscreen>
-        <IonHeader>
-        </IonHeader>
-        {action === "login" && <Login/>}
-        {action === "register" && <Register/>}
-      </IonContent>
+      <IonContent fullscreen className="padding">
         <InputControl
           selectedValue={action}
           onSelectValue={selectCalcUnitHandler}
         ></InputControl>
+        {action === "login" && <Login/>}
+        {action === "register" && <Register/>}
+      </IonContent>
     </IonPage>
   );
 };
