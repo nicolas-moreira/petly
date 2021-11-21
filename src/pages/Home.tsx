@@ -15,6 +15,7 @@ import { Route } from "react-router";
 import { UserContext } from "../App";
 import InputControl from "../components/InputControl";
 import Login from "../components/Login";
+import Register from "../components/Register";
 
 const Home: React.FC = () => {
   const [action, setAction] = useState<"login" | "register">("login");
@@ -29,11 +30,9 @@ const Home: React.FC = () => {
     <IonPage>
       <IonContent fullscreen>
         <IonHeader>
-          <IonToolbar>
-            <IonTitle>Petly</IonTitle>
-          </IonToolbar>
         </IonHeader>
         {action === "login" && <Login/>}
+        {action === "register" && <Register/>}
       </IonContent>
         <InputControl
           selectedValue={action}

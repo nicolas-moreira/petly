@@ -50,6 +50,7 @@ const Login: React.FC = props => {
       </IonRow>
       <IonRow>
         <IonCol className="ion-text-center">
+          <br/>
           <IonButton onClick={loginClick}>
             <IonIcon slot="end" icon={logInOutline}></IonIcon>
             Login
